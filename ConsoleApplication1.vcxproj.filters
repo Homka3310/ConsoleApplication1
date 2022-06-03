@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Smartphone">
+      <UniqueIdentifier>{04c02138-af47-42de-b77d-3bd78889285c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components">
+      <UniqueIdentifier>{2c880d66-17e9-4d89-9c9e-88bbdec2f1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Camera">
+      <UniqueIdentifier>{ce8e6b5a-dbc8-43f7-bbc0-14952084cc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Screen">
+      <UniqueIdentifier>{d7c98904-d45f-42eb-b5ef-269f5d37f4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Dimensions">
+      <UniqueIdentifier>{23b16a37-0e4c-49d8-902e-af14a6c6f377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Connection">
+      <UniqueIdentifier>{5e04d8ed-a3d0-4d70-b47f-38b0d0ad96e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\VideoEngine">
+      <UniqueIdentifier>{30c51276-2f96-4e67-af41-e9b70b7ca11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Memory">
+      <UniqueIdentifier>{cb868e6e-41cf-4ef4-bdd8-9c8048df11c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Other">
+      <UniqueIdentifier>{25349227-f5b7-4702-90dc-10f481cb2757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{42179cce-c08e-4c12-ba07-d1add7609096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\OS">
+      <UniqueIdentifier>{0cc4444b-eca2-4db4-ab41-7dc432784e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{132bcfe4-69e7-4f33-a611-3ef60efcc306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smartphone\Components\Battery">
+      <UniqueIdentifier>{0ec50175-8b28-419b-b550-eae4e70fa41c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Smartphone\Smartphone.h">
+      <Filter>Smartphone</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Camera\Camera.h">
+      <Filter>Smartphone\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Dimensions\Dimensions.h">
+      <Filter>Smartphone\Components\Dimensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Connections\Connections.h">
+      <Filter>Smartphone\Components\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Memory\Memory.h">
+      <Filter>Smartphone\Components\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\VideoEngine\VideoEngine.h">
+      <Filter>Smartphone\Components\VideoEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\OS\OS.h">
+      <Filter>Smartphone\Components\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Screen\Screen.h">
+      <Filter>Smartphone\Components\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Other\Answer.h">
+      <Filter>Smartphone\Components\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Other\Resolution.h">
+      <Filter>Smartphone\Components\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone\Components\Battery\Battery.h">
+      <Filter>Smartphone\Components\Battery</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
